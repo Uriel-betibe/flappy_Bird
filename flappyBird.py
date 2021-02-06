@@ -1,3 +1,5 @@
+#coding  pong game with turtle
+#by @Uriel
 import pygame, sys, random
 
 def draw_floor():
