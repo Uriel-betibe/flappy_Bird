@@ -49,9 +49,10 @@ def score_display():
     screen.blit(score_surface,score_rect)
 
 pygame.init()    #  initialise pygame
+pygame.display.set_caption('Flappy Bird @uriel')
 screen = pygame.display.set_mode((576, 1024))   # on initialise la taille de l'écran de jeu, la display surface
 clock = pygame.time.Clock()  # pour definr la frame
-fnt = "FlappybirdyRegular-KaBW.ttf"
+fnt = 'FlappybirdyRegular-KaBW.ttf'
 game_font = pygame.font.Font(fnt, 40)
 # Game variable
 gravity = 0.25   # pour que l'oiseau tombe il faut lui appliqué le principe de gravité
